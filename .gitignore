@@ -1,0 +1,18 @@
+# Terraform state and backup files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# .terraform directory
+.terraform/
+
+# Override files (e.g., for local variables)
+*.tfvars
+*.tfvars.json
+
+# macOS system files
+.DS_Store
